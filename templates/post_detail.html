@@ -16,7 +16,6 @@
           {% for comment in post.comments.all  %}
           <ul>
             <li> {{comment.body}} </li>
-              <p><a href="{% url 'comment_delete' post.pk %}">Edit Comment</a></p>
           </ul>
           {% endfor %}
         {% endif%}
