@@ -45,8 +45,6 @@ class CommentCreateView(CreateView):
 
     success_url = reverse_lazy('home')
 
-class CommentCreateView():
-    m
 
 def Dashboard(request):
     return render(request, "dashboard.html")
